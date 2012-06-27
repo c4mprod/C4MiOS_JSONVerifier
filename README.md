@@ -33,7 +33,7 @@ This component was design to be very easy to use. It is composed of a single sta
 Data Model
 ----------
 
-Based on the draft of the JSON Schema specifications, the data schema is the hardest part to design for checking the validity of your stream. This data schema is a JSON stream itself and describes all the architecture and elements of the stream to test in a very detail way (such as regex pattern for string attribut or minimum, maximum values for integers and much more).
+Based on the draft of the [JSON Schema specifications][1], the data schema is the hardest part to design for checking the validity of your stream. This data schema is a JSON stream itself and describes all the architecture and elements of the stream to test in a very detail way (such as regex pattern for string attribut or minimum, maximum values for integers and much more).
 
 The C4M_JSONVerifier will check first the integrity of the model before parsing the “server stream”. The response YES or NO from the method strongly depends of the quality and validity of the schema, so make sure this one is correct.
 
@@ -131,3 +131,5 @@ Change Logs
 ### v1.0
 
 First release
+
+[1]: http://tools.ietf.org/html/draft-zyp-json-schema-02
