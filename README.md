@@ -17,6 +17,11 @@ Requirements
 1. This module requires the SBJSON library designed by Stig Brautaset to parse the data model and user stream. It can be adapted easily to use JSONKit library which is twice faster.
 2. It requires also iOS 4 if you want to use the “pattern” feature which uses the official NSRegularExpression object.
 
+Usage
+-----
+
+Please refer to the C4MiOS_apiDemo project for implementation example.
+
 
 How to use it?
 --------------
@@ -113,6 +118,7 @@ Example
  
 	[modelStream release];
 	[testStream release];
+
 
 
 Benchmarks:
